@@ -12,8 +12,8 @@
   ],
   "require": {
     "composer/installers": "~1.0",
-    "php": ">=5.3.2",
-    "rtcamp/nginx-helper":"^1.9"
+    "php": ">=5.3.2"
+
   },
   "autoload": {
     "psr-4": {"Inc\\": "./inc"}
