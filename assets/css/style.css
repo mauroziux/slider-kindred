@@ -1,0 +1,52 @@
+.splide__slide{
+    position: relative;
+    display: inline-block;
+
+}
+
+.splide__slide .meta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    background: rgb(19, 30, 21);
+    background: linear-gradient(0deg, rgba(19, 30, 21, 0.7413165949973739) 0%, rgba(73, 74, 73, 0.5200280795912116) 49%, rgba(255, 255, 255, 0) 100%);
+}
+
+.splide__slide h3, .splide__slide p{
+    font-weight: 700;
+    font-family: "Roboto",sans-serif;
+    color: white;
+}
+
+.splide__slide h3{
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+}
+.splide__slide p{
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+
+.splide__slide .btn{
+    margin: 5px 10px 10px 10px;
+    background: #00a32a;
+    border-color: #00a32a;
+}
+
+@media only screen and (min-width: 600px) {
+    .splide__slide h3{
+        padding: 10px 20px 5px 20px;
+        font-size: 24px;
+    }
+    .splide__slide p{
+        padding: 5px 20px 5px 20px;
+        font-size: 16px;
+    }
+
+    .splide__slide .btn{
+        margin: 5px 20px 20px 20px;
+    }
+}
