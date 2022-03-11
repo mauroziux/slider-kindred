@@ -19,10 +19,6 @@
   "require": {
     "composer/installers": "~1.0",
     "php": ">=5.3.2"
-
-  },
-  "autoload": {
-    "psr-4": {"Inc\\": "./inc"}
   },
   "config": {
     "allow-plugins": {
